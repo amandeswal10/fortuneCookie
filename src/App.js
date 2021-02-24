@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://en.wikipedia.org/wiki/Fortune_cookie"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        What is a Fortune Cookie?
         </a>
       </header>
     </div>
