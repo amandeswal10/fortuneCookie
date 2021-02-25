@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import  wallpaper from './fortune_cookie.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={wallpaper} className="App-logo" alt="logo" />
         <p>
           Coming Soon
         </p>
