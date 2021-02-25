@@ -1,4 +1,48 @@
 .home {
     text-align: center;
+    background-color: black;
+    font-size: xx-large;
+    color: burlywood;
+    position: relative;
+
+}
+.container{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+.image{
+    display: block;
+    max-width: 100%;
+    opacity: 1;
+    transition: .5s ease-in-out;
+    backface-visibility: hidden;
+
+}
+.middle{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-30%,-10%);
+    -ms-transform: translate(-30%, -10%);
+    transition: .5s ease-in-out;
+}
+.container:hover .image{
+    opacity: 0.4;
+}
+.container:hover .middle{
+    opacity: 1;
+}
+
+.text{
+    background-color: black;
+    color: burlywood;
+    font-size: 14px;
+    padding-bottom: 5px;
+
 
 }
