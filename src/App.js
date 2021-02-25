@@ -1,5 +1,5 @@
 import './App.css';
-import  wallpaper from './fortune_cookie.jpg';
+import  wallpaper from './fortune_cookie.png';
 
 function App() {
   return (
