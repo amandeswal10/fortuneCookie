@@ -1,48 +1,23 @@
-.home {
+.appHeader{
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    font-size: larger;
+    padding: 10px 0;
+    width: 100%;
     text-align: center;
-    background-color: black;
-    font-size: xx-large;
-    color: burlywood;
-    position: relative;
+    background-color: gold;
+    font-family: Ayuthaya;
 
 }
-.container{
-    position: relative;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-
-}
-.image{
-    display: block;
-    max-width: 100%;
-    opacity: 1;
-    transition: .5s ease-in-out;
-    backface-visibility: hidden;
-
-}
-.middle{
-    opacity: 0;
+.logos{
     position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(-30%,-10%);
-    -ms-transform: translate(-30%, -10%);
-    transition: .5s ease-in-out;
-}
-.container:hover .image{
-    opacity: 0.4;
-}
-.container:hover .middle{
-    opacity: 1;
-}
-
-.text{
-    background-color: black;
-    color: burlywood;
-    font-size: 14px;
-    padding-bottom: 5px;
-
+    margin-top: 75px;
 
 }
+li{
+    display:inline-block;
+    flex-direction: row;
+}
+
