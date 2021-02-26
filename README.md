@@ -1,3 +1,8 @@
+# Fortune Cookie (Fortune without the cookie)
+
+![home page](app_homepage.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
