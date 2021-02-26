@@ -1,23 +1,59 @@
-.appHeader{
-    margin-top: 10px;
-    overflow: hidden;
-    position: relative;
-    color: black;
-    font-size: larger;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    background-color: gold;
-    font-family: Ayuthaya;
+.home{
 
 }
+
+.appHeader{
+
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+    background-color: gold;
+    margin-top: 15px;
+}
+.appHeader img{
+
+    background: gold;
+    float: left;
+    margin-top: 5px;
+    position: absolute;
+
+}
+
+h1{
+    text-align: center;
+    background-color: gold;
+    font-family: "Academy Engraved LET";
+    color: black;
+    font-size: 60px;
+
+}
+
 .logos{
     position: absolute;
-    margin-top: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 35px;
 
 }
 li{
     display:inline-block;
     flex-direction: row;
+    opacity: 0.5;
 }
 
+h3{
+    text-align: center;
+    color: gold;
+    font-family: "Academy Engraved LET";
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+li:hover {
+    opacity: 1;
+}
+
+ul{
+    margin-left: 35px;
+}
