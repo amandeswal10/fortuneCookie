@@ -1,4 +1,4 @@
-# Fortune Cookie (Fortune without the cookie)
+# Fortune Cookie (fortune without the cookie)
 
 ![home page](app_homepage.png)
 

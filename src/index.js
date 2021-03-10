@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
-import reportWebVitals from './reportWebVitals';
 import Sunsign from "./Components/sunsign";
 
-ReactDOM.render(<Sunsign/>,document.getElementById("root"));
 
-reportWebVitals();
+
+ReactDOM.render( <Sunsign/>,
+    document.getElementById("root"));
+
+

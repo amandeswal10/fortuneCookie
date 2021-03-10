@@ -19,25 +19,23 @@ import logo from '../fortune_logo.png';
 
 
 
+class Sunsign extends Component {
 
-    class Sunsign extends Component {
+    link = "https://www.astrology.com/horoscope/daily/"
 
-        link = "https://www.astrology.com/horoscope/daily/"
-
-        allSigns = {Aries: {img: aries, name: "Aries", link: this.link+"aries.html"},
-            Taurus: {img:taurus, name: "Taurus", link:this.link+"taurus.html"}
-            ,Gemini:{name:"Gemini", img: gemini, link: this.link+ "gemini.html"},
-            Cancer:{img:cancer, name:"Cancer",link: this.link+"cancer.html"},
-            Leo:{img:leo, name:"Leo", link:this.link+"leo.html" },  Virgo: {img:virgo, name:"Virgo", link:this.link+"virgo.html" }
-        , Libra : {img: libra, name: "Libra", link: this.link + "libra.html"},
-        Scorpio: {img:scorpio, name: "Scorpio", link: this.link + "scorpio.html"},
-        Sagittarius: {img: sagittarius,name: "Sagittarius", link: this.link + "sagittarius.html" },
-            Capricorn: {img: capricorn,name: "Capricorn", link: this.link + "capricorn.html" },
-            Aquarius: {img: aquarius,name: "Aquarius", link: this.link + "aquarius.html" },
-            Pisces: {img: pisces,name: "Pisces", link: this.link + "pisces.html" }}
-
-
-        render() {
+    allSigns = {Aries: {date:[3,4],img: aries, name: "Aries", link: this.link+"aries.html"},
+            Taurus: {date: [4,5], img:taurus, name: "Taurus", link:this.link+"taurus.html"}
+            ,Gemini:{date: [5,6], name:"Gemini", img: gemini, link: this.link+ "gemini.html"},
+            Cancer:{date: [6,7], img:cancer, name:"Cancer",link: this.link+"cancer.html"},
+            Leo:{date: [7,8], img:leo, name:"Leo", link:this.link+"leo.html" },
+            Virgo: {date: [8,9], img:virgo, name:"Virgo", link:this.link+"virgo.html" }
+        , Libra : {date: [9,10], img: libra, name: "Libra", link: this.link + "libra.html"},
+        Scorpio: {date: [10,11], img:scorpio, name: "Scorpio", link: this.link + "scorpio.html"},
+        Sagittarius: {date: [11,12], img: sagittarius,name: "Sagittarius", link: this.link + "sagittarius.html" },
+            Capricorn: {date: [12,1], img: capricorn,name: "Capricorn", link: this.link + "capricorn.html" },
+            Aquarius: {date: [1,2], img: aquarius,name: "Aquarius", link: this.link + "aquarius.html" },
+            Pisces: {date: [2,3], img: pisces,name: "Pisces", link: this.link + "pisces.html" }}
+            render() {
             return (
                 <div className="home">
                     <div className="appHeader"><img src={logo} width={175} height={100} alt="fortune cookie logo"/>
