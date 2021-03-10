@@ -1,19 +1,19 @@
 import React, {Component} from "react";
 import './sunsign.css'
-import aries from '../aries_logo.png';
-import taurus from '../Taurus_logo.png';
-import gemini from '../gemini_logo.png';
-import cancer from '../cancer_logo.png';
-import leo from '../leo_logo.png';
-import virgo from '../virgo_logo.png';
-import libra from '../libra_logo.png';
-import scorpio from '../scorpio_logo.png';
-import sagittarius from '../sagittarius_logo.png';
-import capricorn from '../capricorn_logo.png';
-import aquarius from '../aquarius_logo.png';
-import pisces from '../pisces_logo.png'
-import cookie from '../fortune_cookie.png';
-import logo from '../fortune_logo.png';
+import aries from './aries_logo.png'
+import taurus from './Taurus_logo.png';
+import gemini from './gemini_logo.png';
+import cancer from './cancer_logo.png';
+import leo from './leo_logo.png';
+import virgo from './virgo_logo.png';
+import libra from './libra_logo.png';
+import scorpio from './scorpio_logo.png';
+import sagittarius from './sagittarius_logo.png';
+import capricorn from './capricorn_logo.png';
+import aquarius from './aquarius_logo.png';
+import pisces from './pisces_logo.png'
+import cookie from './fortune_cookie.png';
+import logo from './fortune_logo.png';
 
 
 
