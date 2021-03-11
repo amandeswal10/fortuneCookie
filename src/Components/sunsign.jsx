@@ -39,7 +39,7 @@ class Sunsign extends Component {
                 <div className="home">
                     <div className="appHeader"><img src={logo} width={175} height={100} alt="fortune cookie logo"/>
                     <h1>Fortune Cookie</h1></div>
-                    <h2>Chose Your Sign</h2>
+                    <h2>Choose Your Sign</h2>
                     <div className="logos">
 
 
