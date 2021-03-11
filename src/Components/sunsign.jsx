@@ -12,7 +12,6 @@ import sagittarius from './sagittarius_logo.png';
 import capricorn from './capricorn_logo.png';
 import aquarius from './aquarius_logo.png';
 import pisces from './pisces_logo.png'
-import cookie from './fortune_cookie.png';
 import logo from './fortune_logo.png';
 
 
