@@ -35,11 +35,10 @@ class Sunsign extends Component {
             Pisces: {date: [2,3], img: pisces,name: "Pisces", link: this.link + "pisces.html" }}
             render() {
             return (
-                <div className="home">
+                <>
                     <div className="appHeader"><img src={logo} width={175} height={95} alt="fortune cookie logo"/>
                     <h1>Fortune Cookie</h1></div>
                     <h2>Choose Your Sign</h2>
-
                     <div className="logos">
 
 
@@ -81,10 +80,15 @@ class Sunsign extends Component {
                             <img src={pisces} width={200} height={200} alt="Pisces"/>
                             <span className="caption">Pisces</span></a></li>
                     </ul>
+                        <div className="appFooter">
+                            <p>github.com/amandeswal10</p>
+                        </div>
                     </div>
 
 
-                </div>
+
+                </>
+
 
 
 
