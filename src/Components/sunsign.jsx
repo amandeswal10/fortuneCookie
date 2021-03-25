@@ -13,8 +13,7 @@ import capricorn from './capricorn_logo.png';
 import aquarius from './aquarius_logo.png';
 import pisces from './pisces_logo.png'
 import logo from './fortune_logo.png';
-
-
+//import Birthday from './birthday';
 
 
 
@@ -37,9 +36,10 @@ class Sunsign extends Component {
             render() {
             return (
                 <div className="home">
-                    <div className="appHeader"><img src={logo} width={175} height={100} alt="fortune cookie logo"/>
+                    <div className="appHeader"><img src={logo} width={175} height={95} alt="fortune cookie logo"/>
                     <h1>Fortune Cookie</h1></div>
                     <h2>Choose Your Sign</h2>
+
                     <div className="logos">
 
 
